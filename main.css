@@ -95,6 +95,8 @@ body {
 	font-size: 1.15rem;
 }
 
+.far {}
+
 @media (max-width:991px) {
 	.btn-primary,
 	.btn-secondary {
@@ -124,5 +126,5 @@ body {
 	.table > thead > tr > td,
 	.table > tbody > tr > td,
 	.table > tfoot > tr > td {
-		padding: 20px;
+		padding: 15px;
 	}
