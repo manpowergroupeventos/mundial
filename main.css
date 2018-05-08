@@ -78,13 +78,6 @@ body {
 	border-color: #ba9106 !important
 }
 
-@media (max-width:991px) {
-	.btn-primary,
-	.btn-secondary {
-		transform: scale(0.75);
-	}
-}
-
 .grupos .col-lg-3 h2 {
 	font-size: 1.25rem;
 	margin: 25px 0;
@@ -101,3 +94,35 @@ body {
 .featurette h3 {
 	font-size: 1.15rem;
 }
+
+@media (max-width:991px) {
+	.btn-primary,
+	.btn-secondary {
+		transform: scale(0.75);
+	}
+
+	.featurette h2 {
+		font-size: 1.25rem;
+	}
+
+	.featurette p {
+		font-size: 0.75rem;
+	}
+
+	.featurette h3 {
+		font-size: 0.75rem;
+	}
+
+	thead,
+	tbody {
+		font-size: 0.75rem;
+	}
+
+	.table > thead > tr > th,
+	.table > tbody > tr > th,
+	.table > tfoot > tr > th,
+	.table > thead > tr > td,
+	.table > tbody > tr > td,
+	.table > tfoot > tr > td {
+		padding: 20px;
+	}
