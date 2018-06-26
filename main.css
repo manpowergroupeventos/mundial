@@ -142,3 +142,14 @@ html {
 .smaller {
 	padding: 10px;
 }
+
+@media (max-width:420px) {
+	.elim img {
+		width: 32px;
+		height: 15px;
+	}
+
+	.elim p {
+		font-size: 0.5rem;
+	}
+}
